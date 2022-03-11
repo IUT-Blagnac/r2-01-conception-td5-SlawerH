@@ -28,13 +28,13 @@ endif::[]
 
 Ce TP vise à reprendre les diagrammes des UC et les lier avec le diagramme de classe.
 
-== À propos...
+== À propos...Z
 
-NOM:: DOE
+NOM:: Monté
 
-Prénom:: John
+Prénom:: Hugo
 
-Groupe #::
+Groupe #:: 2B
 
 [%interactive]
 - [X] Enseignants
