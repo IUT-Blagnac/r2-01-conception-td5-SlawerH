@@ -28,7 +28,7 @@ endif::[]
 
 Ce TP vise à reprendre les diagrammes des UC et les lier avec le diagramme de classe.
 
-== À propos...Z
+== À propos...
 
 NOM:: Monté
 
