@@ -36,13 +36,6 @@ Prénom:: Hugo
 
 Groupe #:: 2B
 
-[%interactive]
-- [X] Enseignants
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
-
 == Mise en place
 
 Si vous lisez ce document c'est que vous avez réalisé la manipulation suivante :
