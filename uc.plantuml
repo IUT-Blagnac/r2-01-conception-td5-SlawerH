@@ -1,0 +1,24 @@
+@startuml uc
+
+left to right direction
+
+actor Artisan
+actor Entreprise
+
+usecase gererChantiers as "Gérer ses chantiers"
+usecase gererArtisans as "Gérer ses artisans"
+usecase gererArtisansChantiers as "Gérer quels artisans sont affectés à quels chantiers"
+usecase calcPayeArtisan as "Calculer automatiquement la paye d'un artisan"
+
+Entreprise --> gererArtisans
+Entreprise --> gererChantiers
+
+gererChantiers --> gererArtisansChantiers
+
+gererArtisans --> Artisan
+gererArtisansChantiers --> Artisan
+
+gererArtisansChantiers -> calcPayeArtisan
+calcPayeArtisan -> Artisan
+
+@enduml
